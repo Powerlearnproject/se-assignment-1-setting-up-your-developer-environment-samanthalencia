@@ -1,0 +1,62 @@
+Setup Development Environment
+
+#Assignment: Setting Up Your Developer Environment
+
+#Objective: This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
+
+#Tasks:
+
+Select Your Operating System (OS): Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11: 
+
+Before installing, I used the pc health check app to confirm if my laptop meets the system requirements for windows 11.
+I checked the windows release information status.
+Therefore, I clicked on "Download now". Then I opened the installer and agreed to the license terms to install.
+After the installation assistant finished downloading and installing the windows, I restarted my laptop.
+
+
+Install a Text Editor or Integrated Development Environment (IDE): Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download:
+
+I downloaded the version 1.74 of visual studio code for my windows laptop.
+Then I accepted and agreed to the license terms of Microsoft visual studio code.
+Then I located my file in my local disk.
+I selected "create a desktop" on select additional tasks, clicked on next then installed and launched my visual studio code.
+On my VS code I clicked on explorer, opened a new folder and created a new file. I named the folder HTML_Practice, then went to VS code I created a file and named it htlm.index.
+therefore i installed live server to double check if my html.index will launch and go live on my browser.
+
+
+Set Up Version Control System: Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com:
+
+I installed git and created a GitHub account. Then I created a new repository and named it Demo2,added the description and made my repository public.
+I then added a text file and committed it.
+
+
+Install Necessary Programming Languages and Runtimes: Install Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.:
+
+On the official site of python, I clicked on download python 3.12.4 and it downloaded the installer.
+On my installer, I ticked add python.exe to path and clicked on custom installation. 
+I clicked next, on advanced options, I clicked on "install python 3.12 for all users" and clicked on install.
+Then I opened my command prompt and also created a file and named it test.py then it on idle.
+
+
+Configure a Database (MySQL): Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html:
+
+Go to the MySQL website and lick on "Downloads"
+Select the appropriate version for Windows and download the installer or archive file
+Run the installer and follow the installation prompts to install MySQL
+Set the root password during installation or afterwards using the command "mysqladmin -u root password <new_password>"
+Configure the MySQL server settings in the configuration file my.cnf, set the server name, port, and options as needed
+Start the MySQL server service for my windows
+Test the connection using the command "mysql -u root -p<password>"
+
+
+Set Up Development Environments and Virtualization (Optional): Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.:
+
+Explore Extensions and Plugins: Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.:
+
+Document Your Setup: Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process.:
+
+#Deliverables:
+
+Document detailing the setup process with step-by-step instructions and screenshots where necessary.
+A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
+A reflection on the challenges faced during setup and strategies employed to overcome them.
